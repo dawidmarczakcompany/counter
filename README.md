@@ -15,15 +15,16 @@ Follow these steps to set up and run the React Native app on your local developm
 
 ```
 yarn install
+cd ios & pod install
 ```
 
-4. **Run on Android**: To run the app on an Android emulator or device, use the following command:
+4. **Run on Android**: To run the app on an Android emulator use the following command:
 
 ```
 yarn android
 ```
 
-5. **Run on iOS**: To run the app on an iOS simulator or device, use the following command:
+5. **Run on iOS**: To run the app on an iOS simulator use the following command:
 
 ```
 yarn ios

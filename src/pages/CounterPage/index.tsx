@@ -27,7 +27,9 @@ const CounterPage = () => {
     <View style={styles.pageWrapper}>
       <Text style={styles.pageHeader}>Counter Application</Text>
 
-      <Text style={styles.counter}>{counterValue}</Text>
+      <Text style={styles.counter} testID="CounterPage__CounterText">
+        {counterValue}
+      </Text>
 
       <View style={styles.buttonsWrapper}>
         <Button
@@ -37,6 +39,7 @@ const CounterPage = () => {
           disabled={counterValue === MIN_COUNTER_VALUE}
           onPressOut={handlePressOut}
           icon={<Image style={styles.buttonImg} source={minusImg} />}
+          testID="CounterPage__DecreaseBtn"
         />
 
         <Button
@@ -46,6 +49,7 @@ const CounterPage = () => {
           disabled={counterValue === MAX_COUNTER_VALUE}
           onPressOut={handlePressOut}
           icon={<Image style={styles.buttonImg} source={plusImg} />}
+          testID="CounterPage__IncreaseBtn"
         />
       </View>
     </View>

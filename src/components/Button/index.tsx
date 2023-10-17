@@ -9,6 +9,7 @@ interface ButtonProps {
   disabled?: boolean;
   onLongPress?: () => void;
   onPressOut?: () => void;
+  testID?: string;
 }
 
 const Button = ({
@@ -18,6 +19,7 @@ const Button = ({
   onLongPress,
   onPressOut,
   icon,
+  testID,
 }: ButtonProps) => {
   return (
     <TouchableOpacity
@@ -26,6 +28,7 @@ const Button = ({
       disabled={disabled}
       onLongPress={onLongPress} //Called if the time after onPressIn lasts longer than 500 milliseconds.
       onPressOut={onPressOut}
+      testID={testID}
     >
       {icon}
       <Text style={styles.buttonText}>{label}</Text>
