@@ -11,5 +11,9 @@ export default StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     textTransform: "uppercase",
+    margin: 24,
+  },
+  buttonsWrapper: {
+    margin: 24,
   },
 });
