@@ -2,17 +2,17 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   buttonWrapper: {
-    borderColor: "gray",
-    borderWidth: 1,
-    borderRadius: 4,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
+    borderRadius: 8,
     marginHorizontal: 8,
-    minWidth: 60,
+    minWidth: 100,
+    height: 80,
     display: "flex",
     alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "white",
   },
   buttonText: {
+    fontSize: 14,
     textTransform: "uppercase",
   },
   buttonDisabled: {
