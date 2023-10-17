@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import counterReducer, { CounterState } from "./counter/reducer";
+import counterReducer, { CounterState } from "./counter/slice";
 
 export type RootState = {
   counter: CounterState;

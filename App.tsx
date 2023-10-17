@@ -1,8 +1,7 @@
-import React from "react";
 import { SafeAreaView, StatusBar } from "react-native";
-import CounterPage from "./pages/CounterPage";
+import CounterPage from "./src/pages/CounterPage";
 import { Provider } from "react-redux";
-import store from "./store";
+import store from "./src/store";
 
 const App = () => {
   return (
