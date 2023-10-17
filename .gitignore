@@ -1,0 +1,38 @@
+# OS and editor files
+#
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+
+# Android
+android/app/build/
+android/build/
+android/local.properties
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle-wrapper.jar
+
+# node_modules directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+# iOS
+Pods/
+Podfile.lock
+#
+# End of https://www.toptal.com/developers/gitignore/api/reactnative

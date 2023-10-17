@@ -1,2 +1,5 @@
-export const INCREASE_COUNTER = "INCREASE_COUNTER";
-export const DECREASE_COUNTER = "DECREASE_COUNTER";
+import { CounterActionType } from "./types";
+
+export const increaseCounter = () => ({
+  type: CounterActionType.INCREASE_COUNTER,
+});
