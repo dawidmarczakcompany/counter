@@ -14,6 +14,8 @@ export default StyleSheet.create({
     margin: 24,
   },
   buttonsWrapper: {
+    display: "flex",
+    flexDirection: "row",
     margin: 24,
   },
 });

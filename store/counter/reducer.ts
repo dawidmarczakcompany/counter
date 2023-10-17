@@ -17,6 +17,11 @@ const counterReducer = (
         ...state,
         value: state.value + 1,
       };
+    case CounterActionType.DECREASE_COUNTER:
+      return {
+        ...state,
+        value: state.value - 1,
+      };
     default:
       return state;
   }
